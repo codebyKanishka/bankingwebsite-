@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+nav{
+    padding: 0;
+    margin: 0;
+    position: static;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:larger;
+    /* color: white; */
+    /* background-color: white; */
+}
+a{
+    text-decoration: none;
+
+}
+/* body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+} */
+#home{
+    background-image: url('bac.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50rem;
+}
+/* {
+   
+    margin: 0;
+    padding: 0;
+
+} */
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    /* justify-content: spac*/
+    /* right: 0; */
+}
+nav ul li{
+    color: white;
+    
+    padding-left: 5rem;
+    padding-right:5rem;
+    padding-top: 2rem;
+    /* right: 0; */
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rem;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    width: 70rem;
+    height: 20rem;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+.card{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    
+
+}
+.card-img-top{
+    height:5rem;
+    width:5rem;
+}
